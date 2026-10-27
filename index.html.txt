@@ -1,0 +1,35 @@
+<!DOCTYPE html> 
+<html lang="es"> 
+<head> 
+<meta charset="UTF-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<title>Mi primera página con CSS</title> 
+<link rel="stylesheet" href="css/estilos.css"> 
+</head> 
+<body> 
+    <header class="encabezado"> 
+        <h1>Explora la tecnología</h1> 
+        <p>Aprendiendo desarrollo web paso a paso</p> 
+    </header> 
+ 
+    <main class="contenedor"> 
+        <section class="tarjeta"> 
+            <h2>¿Qué es CSS?</h2> 
+            <p>CSS permite cambiar la apariencia de una página HTML: 
+               colores, fuentes, espacios y distribución.</p> 
+            <a class="enlace" href="https://developer.mozilla.org/es/docs/Web/CSS"> 
+                Aprende más sobre CSS 
+            </a> 
+        </section> 
+ 
+        <section class="tarjeta"> 
+            <h2>Mi objetivo</h2> 
+            <p>Crear una página clara, atractiva y fácil de utilizar.</p> 
+        </section> 
+    </main> 
+ 
+    <footer class="pie"> 
+        <p>Práctica de HTML, CSS y Git</p> 
+    </footer> 
+</body> 
+</html>
